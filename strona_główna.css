@@ -9,6 +9,7 @@ body{
 }
 .one{
     align-items: center;
+    height: 60px;
     flex-wrap: nowrap;
     position: fixed;
     left: 0;
@@ -75,4 +76,7 @@ a:hover{
     .two_c {
         order: 1;
     }
+}
+.one_c_b{
+    visibility: hidden;
 }
