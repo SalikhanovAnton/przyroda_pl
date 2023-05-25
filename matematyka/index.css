@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(255, 198, 112, 0.479);
+    padding: 30%;
+    padding-top: 50px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    align-items: center;
+    height: 60px;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(75, 34, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.one_a{
+    display: flex;
+    flex-direction: row;
+}
+.one_a_b{
+    color: white;
+    font-size: 45px;
+}
+.one_b_a{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+a{
+    color: rgb(74, 74, 250);
+}
+a:hover{
+    color: rgb(0, 0, 146);
+}
+.two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.two_a, .two_d, .two_c, .two_b{
+    border: 1px solid black;
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+}
+.two_c{
+    order: 1;
+}
+.two_a_b, .two_d_b{
+    padding-left: 50px;
+}
+.two_d{
+    color: black;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+}
+.three_a{
+    margin-left: 150px;
+}
+.three_b{
+    display: flex;
+    flex-direction: row;
+}
+.three_b_a, .three_b_b, .three_b_c{
+    border: 1px solid black;
+    width: 100px;
+}
+@media(max-width: 700px) {
+    .two_c {
+        order: 1;
+    }
+}
+.one_c_b{
+    visibility: hidden;
+}
