@@ -1,0 +1,84 @@
+body{
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,106,0,1) 14%, rgba(255,252,0,1) 29%, rgba(15,159,7,1) 44%, rgba(6,175,176,1) 57%, rgba(11,5,194,1) 71%, rgba(147,4,212,1) 86%, rgba(244,1,202,1) 100%, rgba(0,212,255,1) 100%);
+    padding: 30%;
+    padding-top: 50px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    align-items: center;
+    height: 60px;
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,106,0,1) 14%, rgba(255,252,0,1) 29%, rgba(15,159,7,1) 44%, rgba(6,175,176,1) 57%, rgba(11,5,194,1) 71%, rgba(147,4,212,1) 86%, rgba(244,1,202,1) 100%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.one_a{
+    display: flex;
+    flex-direction: row;
+}
+.one_a_b{
+    color: white;
+    font-size: 45px;
+}
+.one_b_a{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+a{
+    color: rgb(74, 74, 250);
+}
+a:hover{
+    color: rgb(0, 0, 146);
+}
+.two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.two_a, .two_d, .two_c, .two_b{
+    border: 1px solid black;
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+}
+.two_c{
+    order: 1;
+}
+.two_a_b, .two_d_b{
+    padding-left: 50px;
+}
+.two_d{
+    color: black;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+}
+.three_a{
+    margin-left: 150px;
+}
+.three_b{
+    display: flex;
+    flex-direction: row;
+}
+.three_b_b, .three_b_c, .threex_b_a{
+    border: 1px solid black;
+    width: 100px;
+}
+@media(max-width: 700px) {
+    .two_c {
+        order: 1;
+    }
+}
+.one_c_b{
+    visibility: hidden;
+}
