@@ -1,0 +1,44 @@
+body{
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+.a {
+    color: rgb(255, 123, 0);
+}
+.b{
+    color: rgb(255, 123, 0);
+}
+li{
+    margin: 2px;
+    width: 500px;
+}
+.one{
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(54, 27, 1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.one_a{
+    display: flex;
+    flex-direction: row;
+}
+.one_a_b{
+    color: white;
+    font-size: 45px;
+}
+.one_b_a{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+a{
+    color: rgb(74, 74, 250);
+}
+a:hover{
+    color: rgb(0, 0, 146);
+}
